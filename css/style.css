@@ -1,0 +1,142 @@
+* {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  
+ body {
+   color: rgb(197, 220, 236);
+   background-color: #05101f;
+      min-width: 500px;
+  }
+  
+  div {
+    border-radius: 5px;
+  }
+  
+  #header {
+    height: 40px;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  #title {
+    margin-left: 3%;
+  }
+  
+  #footer {
+    height: 23px;
+    width: 100%;
+    background-color: #040d1a;
+    color: grey;
+    clear: both;
+    position: relative;
+    
+  }
+  
+  .left {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: left;
+    position: fixed;
+  }
+  
+  .right {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: right;
+    position: inherit;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+  }
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  p,
+  li {
+    font-family: 'Cormorant Garamond';
+    color: #b3c8e9;
+  }
+  
+  .head {
+    font-size: 20px;
+    color: #b5f7d6;
+  }
+  
+  #name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+  }
+  
+  
+  a {
+    color: rgb(32, 10, 10);
+    text-decoration: none;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  font-family: 'Cormorant Garamond';
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical] /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  font-family: 'Cormorant Garamond';
+  background-color: #05101f;
+  color: white;
+  padding: 12px 20px;
+  border: solid, 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  font-family: 'Cormorant Garamond';
+  background-color: #060a06;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #05101f;
+  padding: 22px;
+}
+  
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
