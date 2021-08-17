@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
     mail($to,$subject,$message,$headers);
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     
-    header('Location: thank-you.php');
+    header("Location: thank-you.php");
     // You can also use header('Location: thanks.php'); to redirect to another page.
    // echo "Mail Sent. Thank you " . $sender_name . ", we will contact you shortly.";
     // You cannot use header and echo together. It's one or the other.
