@@ -64,7 +64,7 @@
     <input type="text" id="" name="sender_name" placeholder="Your name..">
 
     <label for="email">Email</label>
-    <input type="text" id="email" name="sender_email" placeholder="Your email..">
+    <input type="text" id="sender_email" name="sender_email" placeholder="Your email..">
 
     <label for="subject">Subject</label>
     <input type="text" id="subject" name="subject" placeholder="Subject">
