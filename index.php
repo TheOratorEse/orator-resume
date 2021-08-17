@@ -61,10 +61,10 @@
   <form action="lib/mail.php" method="POST" id="contact_form">
 
     <label for="send">Full name</label>
-    <input type="text" id="" name="sender_name" placeholder="Your name..">
+    <input type="text" id="" name="sender_name" placeholder="Your name.." required/>
 
     <label for="email">Email</label>
-    <input type="text" id="sender_email" name="sender_email" placeholder="Your email..">
+    <input type="text" id="sender_email" name="sender_email" placeholder="Your email.." required/>
 
     <label for="subject">Subject</label>
     <input type="text" id="subject" name="subject" placeholder="Subject">
