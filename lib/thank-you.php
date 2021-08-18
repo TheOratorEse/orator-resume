@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Form submitted successfully</title>
     <link rel="shortcut icon" href="img/favicon.ico">
 <link href="\css/style.css" rel="stylesheet">
